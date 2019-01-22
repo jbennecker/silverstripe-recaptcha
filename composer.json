@@ -1,0 +1,22 @@
+{
+    "name": "jbennecker/silverstripe-recaptcha",
+    "description": "SilverStripe module for ReCaptcha 2.0 spam protection",
+    "license": "MIT",
+    "type": "silverstripe-vendormodule",
+    "authors": [
+        {
+            "name": "Julian Bennecker",
+            "email": "jb@brandcom.de"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "silverstripe/framework": "^4",
+        "silverstripe/cms": "^4"
+    },
+    "autoload": {
+        "psr-4": {
+            "jbennecker\\recaptcha\\": "src/"
+        }
+    }
+}
