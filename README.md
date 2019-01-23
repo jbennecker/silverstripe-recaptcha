@@ -7,6 +7,10 @@ This module adds a RecaptchaField to SilverStripe 4.x, which you can use in cust
 ![](https://raw.githubusercontent.com/jbennecker/silverstripe-recaptcha/master/screenshot.png)
 
 
+## Install
+
+    composer require jbennecker/silverstripe-recaptcha
+
 ## Usage
 
 Put your keys in app/_config/app.yml
